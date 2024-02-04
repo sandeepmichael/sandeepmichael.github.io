@@ -1,0 +1,15 @@
+.header {
+    background: url(../images/bgheader.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about-img {
+    width: 200px;
+}
+
+@media (max-width:760px) {
+    .about-content {
+        flex-direction: column;
+    }
+}
